@@ -1,0 +1,9 @@
+<?php
+	/*TEXTOS DO SCRIPT*/
+	$txt[4] = "Iniciar Sesssão"; //Texto do botão "Iniciar Sessão"
+	$txt[7] = "Terminar Sessão"; //Texto do botão "Terminar Sessão"
+	define("TITULO_PAGINA_PROTEGIDA", 'Autenticação necessária.'); //Título '<title></title>' das páginas protegidas
+
+	/*CONFIGURAÇÕES GERAIS*/
+	define("TIME_REDIRECT", 0); // Tempo em segundos que demorará a redirecionar o visitante de uma página protegida para a página de login. 
+?>

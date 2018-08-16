@@ -1,0 +1,38 @@
+       .info, .error, .checked, .idea {
+			width:90%;
+			margin: 10px auto;
+			padding:15px 10px 15px 50px;
+			background-repeat: no-repeat;
+			background-position: 10px center;
+		}
+
+		.info {
+			border: 1px solid #A7C1DF;
+			background-color: #DFEEFF;
+			background-image: url('../imagens/info.png');
+		}
+
+		.error {
+			border: 1px solid #DF999C;
+			background-color: #FFCFD1;
+			background-image: url('../imagens/exclamation.png');
+		}
+
+		.checked {
+			border: 1px solid #9DDF99;
+			background-color: #D2FFCF;
+			background-image: url('../imagens/checked.png');
+		}
+
+		.idea {
+			border: 1px solid #DFD999;
+			background-color: #FFFBCF;
+			background-image: url('../imagens/idea.png');
+		}
+		.close {
+			float:right; 
+			margin-right:0; 
+			margin-left:10px; 
+			margin-bottom:5px;
+			background-image: url('../imagens/fechar.jpeg');
+			}
